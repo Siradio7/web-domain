@@ -1,0 +1,127 @@
+body{
+     background-color: rgba(5, 23, 27, 0.884);
+     font-family: 'Century Gothic', 'Times New Roman', 'Segoe UI', 'Helvetica Neue';
+     color: cornflowerblue;
+}
+
+.tete{
+     background: linear-gradient(rgba(224, 255, 255, 0.555), rgba(135, 207, 235, 0.555), rgba(0, 191, 255, 0.555));
+     border: 5px solid rgba(0, 0, 0, 0.767);
+     box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.767);
+     border-radius: 0px 10px 0px 10px;
+     margin-left: 40px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+}
+
+.sous_tete{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     text-align: end;
+     color : rgba(0, 0, 0, 0.534);
+     text-shadow: 2px 3px 5px rgb(0, 0, 0);
+     text-decoration: underline;
+     position: relative;
+     top: 25px;
+     padding-right: 10px;
+}
+
+.sous_tete h6{
+     position: relative;
+     right: 70px;
+     margin-top: -20px;
+}
+.sous_tete h3{
+     position: relative;
+     margin-bottom: -20px;
+}
+.sous_tete:hover{
+     color: #4C8;
+}
+nav{
+     background-color: rgba(0, 0, 0, 0.356);
+     margin-left: 40px;
+     border-radius: 3px;
+     margin-top: -15px;
+}
+
+nav li {
+     display: inline;
+     list-style-type: none;
+     padding: 10px;
+     margin-left: 10px;
+}
+     
+/** style du tableau */
+
+table{
+     width: 80%;
+     border-collapse: collapse;
+     background-color: lightslategrey;
+     color: black;
+     text-align: center;
+     box-shadow: 5px 5px 5px black;
+     position: relative;
+     left: 40px;
+
+}
+table tr td{
+     border: 1px solid black;
+     padding: 15px;
+}
+
+/** même style de couleur ( tête du tableau - corps du tableau - pied du tableau ) */
+thead, tfoot tr td{
+     background-color: cornflowerblue;
+}
+
+nav a{
+     display: inline-block;
+     text-decoration: none;
+     padding: 10px 20px;
+     color: cornflowerblue;
+     text-transform: uppercase;
+     font-size: 15px;
+}
+
+/** animation des liens une fois le curseur au dessus */
+
+.acc:hover, .ins:hover, .cla:hover, .pro:hover{
+     border-top: 3px solid #4C8;
+     background-color: rgba(64, 200, 130, 0.15);
+}
+
+footer{
+     height: 300px;
+     margin-top: 100px;
+     background-color: rgba(0, 0, 0, 0.438);
+     padding: 30px;
+     color: cornflowerblue;
+     border-radius: 5px;
+     margin-left: -7px;
+     margin-right: -7px;
+}
+.foot_h4{
+     position: relative;
+     left: 40px;
+}
+footer ul li{
+     list-style-type: none;
+     display: block;
+}
+.input{
+     display: block;
+     background-color: cornflowerblue;
+     width: 200px;
+     height: 20px;
+     border-radius: 3px;
+}
+
+p{
+     position: relative;
+     left: 40px;
+}
+h4{
+     position: relative;
+     left: 40px;
+}

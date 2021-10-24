@@ -1,0 +1,195 @@
+body{
+     background-color: rgba(5, 23, 27, 0.884);
+     font-family: 'Century Gothic', 'Times New Roman', 'Segoe UI', 'Helvetica Neue';
+     color: cornflowerblue;
+     
+}
+
+.tete{
+     background: linear-gradient(rgba(224, 255, 255, 0.555), rgba(135, 207, 235, 0.555), rgba(0, 191, 255, 0.555));
+     border: 5px solid rgba(0, 0, 0, 0.767);
+     box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.767);
+     border-radius: 0px 10px 0px 10px;
+     margin-left: 40px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+}
+
+.sous_tete{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     text-align: end;
+     color : rgba(0, 0, 0, 0.534);
+     text-shadow: 2px 3px 5px rgb(0, 0, 0);
+     text-decoration: underline;
+     position: relative;
+     top: 25px;
+     padding-right: 10px;
+}
+
+.sous_tete h6{
+     position: relative;
+     right: 70px;
+     margin-top: -20px;
+}
+.sous_tete h3{
+     position: relative;
+     margin-bottom: -20px;
+}
+.sous_tete:hover{
+     color: #4C8;
+}
+nav{
+     background-color: rgba(0, 0, 0, 0.356);
+     margin-left: 40px;
+     border-radius: 3px;
+     margin-top: -15px;
+}
+
+nav li {
+     display: inline;
+     list-style-type: none;
+     padding: 10px;
+     margin-left: 10px;
+}
+nav a{
+     display: inline-block;
+     text-decoration: none;
+     padding: 10px 20px;
+     color: cornflowerblue;
+     text-transform: uppercase;
+     font-size: 15px;
+}
+
+/** animation des liens une fois le curseur au dessus */
+
+.acc:hover, .ins:hover, .cla:hover, .pro:hover{
+     border-top: 3px solid #4C8;
+     background-color: rgba(64, 200, 130, 0.15);
+     color: rgba(192, 3, 3, 0.719);
+}
+
+.d{
+     padding: 40px 20px;
+     background-color: rgba(0, 0, 0, 0.356);
+     width: 170px;
+     height: 150px;
+     position: relative;
+     border: 2px solid black;
+     border-radius: 15px;
+     box-shadow: 2px 2px 2px black;
+     left: 400px;
+     margin: 15px;
+}
+.d ul li{
+     list-style-type: none;
+}
+.d a{
+     text-align: center;
+     text-decoration: none;
+     color: cornflowerblue;
+     text-shadow: 0px 2px 2px black;
+     position: relative;
+     top: 110px;
+}
+.d:hover{
+     bottom: 5px;
+     border-left: 3px solid #4C8;
+     background-color: rgba(64, 200, 130, 0.15);
+}
+
+.a{
+     padding: 40px 20px;
+     background-color: rgba(0, 0, 0, 0.356);
+     width: 170px;
+     height: 150px;
+     position: relative;
+     border: 2px solid black;
+     border-radius: 15px;
+     box-shadow: 2px 2px 2px black;
+     left: 650px;
+     margin: 15px;
+     bottom: 996px;
+}
+.a ul li{
+     list-style-type: none;
+}
+.a a{
+     text-align: center;
+     text-decoration: none;
+     color: cornflowerblue;
+     text-shadow: 0px 2px 2px black;
+     position: relative;
+     top: 110px;
+}
+.a:hover{
+     bottom: 5px;
+     border-top: 3px solid #4C8;
+     background-color: rgba(64, 200, 130, 0.15);
+}
+
+.s{
+     padding: 40px 20px;
+     background-color: rgba(0, 0, 0, 0.356);
+     width: 170px;
+     height: 150px;
+     position: absolute;
+     border: 2px solid black;
+     border-radius: 15px;
+     box-shadow: 2px 2px 2px black;
+     left: 900px;
+     margin: 15px;
+     bottom: 300px;
+}
+.s ul li{
+     list-style-type: none;
+}
+.s a{
+     text-align: center;
+     text-decoration: none;
+     color: cornflowerblue;
+     text-shadow: 0px 2px 2px black;
+     position: relative;
+     top: 110px;
+}
+.s:hover{
+     bottom: 5px;
+     border-right: 3px solid #4C8;
+     background-color: rgba(64, 200, 130, 0.15);
+}
+
+.t{
+     padding: 40px 20px;
+     background-color: rgba(0, 0, 0, 0.356);
+     width: 170px;
+     height: 150px;
+     position: relative;
+     border: 2px solid black;
+     border-radius: 15px;
+     box-shadow: 2px 2px 2px black;
+     left: 650px;
+     margin: 15px;
+     bottom: 1992px;
+}
+.t ul li{
+     list-style-type: none;
+}
+.t a{
+     text-align: center;
+     text-decoration: none;
+     color: cornflowerblue;
+     text-shadow: 0px 2px 2px black;
+     position: relative;
+     top: 130px;
+     left: 50px;
+}
+.t:hover{
+     bottom: 5px;
+     border-bottom: 3px solid #4C8;
+     background-color: rgba(64, 200, 130, 0.15);
+}
+
+p{
+     position: relative;
+     left: 40px;
+}
